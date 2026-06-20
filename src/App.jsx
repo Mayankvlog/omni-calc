@@ -188,7 +188,7 @@ export default function App() {
   return (
     <div className={`min-h-screen ${activeTheme.bg} transition-colors duration-500 pb-16 flex flex-col relative overflow-hidden`}>
       {/* Dynamic SEO Injector updating tags */}
-      <SEO mode={mode} />
+      <SEO mode={mode} lang={lang} />
 
       {/* Aesthetic Smooth Ambient Floating Blobs (Aura Effect) */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
